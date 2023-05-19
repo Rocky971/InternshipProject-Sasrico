@@ -1,0 +1,1362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sasrico</title>
+    <!-- Tailwind_css_link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom__css_file -->
+    <link rel=" stylesheet" href="style.css">
+    <link rel=" stylesheet" href="./pages/navbar.css">
+    <!-- fontAwesome_file_link -->
+    <script src="https://kit.fontawesome.com/929eac8290.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="overflow-x-hidden bg-[#F8F8F8]">
+    <!-- This__is_navbar START-->
+    <header class="overflow-hidden">
+        <nav class="navbar container mb-[48px]">
+            <div class="flex items-center">
+                <a href="/" class="nav-logo">
+                    Sasrico <span class="text-red-500">.</span>
+                </a>
+                <ul class="nav-menu">
+                    <li class="nav-item relative nav-wrapper">
+                        <span class="flex items-center gap-2">
+                            <a href="/index.html" class="nav-link text-[16px] font-medium">Products</a>
+                            <i class="fa-solid fa-sort-down text-[14px]"></i>
+                        </span>
+                        <!-- <ul class="absolute pt-[10px] home-child">
+                            <li class=""><a href="/pages/Home2.html"
+                                    class="nav-link text-[16px] font-medium border-b border-black">Home2</a>
+                            </li>
+                            <li class="mt-[10px]"><a href="/pages/Home3.html"
+                                    class="nav-link text-[16px] font-medium border-b border-black">Home3</a>
+                            </li>
+                        </ul> -->
+                    </li>
+                    <li class="nav-item">
+                        <a href="/pages/About.html" class="nav-link text-[16px] font-medium">Pricing</a>
+                    </li>
+                    <li class="nav-item relative nav-wrapper">
+                        <span class="flex gap-2 items-center">
+                            <a href="/pages/Courses1.html" class="nav-link text-[16px] font-medium">Recourses</a>
+                            <i class="fa-solid fa-sort-down text-[14px]"></i>
+                        </span>
+                        <!-- <ul class="absolute pt-[10px] home-child">
+                            <li class=""><a href="/pages/Courses2.html"
+                                    class="nav-link text-[16px] font-medium border-b border-black">Course2</a>
+                            </li>
+                            <li class=""><a href="/pages/CourseDetails.html"
+                                    class="nav-link text-[16px] font-medium border-b border-black">Course Details</a>
+                            </li>
+                        </ul> -->
+                    </li>
+                    <li class="nav-item relative nav-wrapper">
+                        <span class="flex gap-2 items-center">
+                            <a href="/pages/Courses1.html" class="nav-link text-[16px] font-medium">Company</a>
+                            <i class="fa-solid fa-sort-down text-[14px]"></i>
+                        </span>
+                        <!-- <ul class="absolute pt-[10px] home-child">
+                            <li class=""><a href="/pages/SingleBlogs.html"
+                                    class="nav-link text-[16px] font-medium border-b border-black">Blogs Details</a>
+                            </li>
+                        </ul> -->
+                    </li>
+                    <li class="nav-item relative nav-wrapper">
+                        <span class="">
+                            <a href="/pages/Instructor.html" class="nav-link text-[16px] font-medium">Contacts</a>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex items-center">
+                <div class="hidden md:block">
+                    <button class="login py-[12px] px-[32px] bg-white rounded-[4px] text-[16px] font-medium">Log
+                        in</button>
+                </div>
+                <div class="hidden md:block">
+                    <button class="py-[12px] px-[32px] bg-black text-white rounded-[4px] text-[16px] font-medium">
+                        Get started
+                    </button>
+                </div>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+        <div class="relative mb-[100px] lg:mb-[250px]">
+            <div class="container pt-[55px]">
+                <div class="flex items-center justify-between lg:flex-row flex-col gap-20">
+                    <div class="lg:w-[570px]">
+                        <div class="mb-[24px] relative">
+                            <div class="absolute top-[-100px] lg:left-[-50px]">
+                                <img src="https://i.ibb.co/dGydxY2/Element-8.png" alt="">
+                            </div>
+                            <h1 class="">
+                                <span class="text_primary">
+                                    Sasrico
+                                </span>
+                                makes it easy to run your business.
+
+                            </h1>
+                        </div>
+                        <div class="">
+                            <p class="text-[18px] text-[#808D9E] font-medium leading-[28px] mb-[48px]">
+                                There is a time management facility through this modern software.
+                                Effective time management allows you to achieve great results .
+                            </p>
+                            <div class="flex relative justify-between first_hero_Shadow">
+                                <input type="email" placeholder="Enter your mail"
+                                    class="py-[20px] text-[16px] lg:w-[74%] rounded-tl-[4px] rounded-bl-[4px] pl-[52px]"
+                                    name="" id="">
+                                <i
+                                    class="fa-regular fa-envelope text-[14px] absolute top-1/2 left-4 translate-y-[-50%]"></i>
+                                <button
+                                    class="py-[20px] px-[32px] bg_primary text-[16px] font-bold text-white rounded-tr-[4px] rounded-br-[4px]">Get
+                                    started</button>
+                            </div>
+                        </div>
+                        <div class="flex gap-10 items-center mt-[24px] pb-[30px] md:pb-[0px]">
+                            <div class="flex items-center gap-3">
+                                <i class="fa-solid fa-check text_primary text-[18px]"></i>
+                                <p class="text-[16px] text-[#1D1E25] font-medium leading-[24px]">No credit card is
+                                    required
+                                </p>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <i class="fa-solid fa-check text_primary text-[18px]"></i>
+                                <p class="text-[16px] text-[#1D1E25] font-medium leading-[24px]">
+                                    Get 15 days free trial
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ******************** -->
+                    <div class="relative">
+                        <div class="">
+                            <!-- blackCircleBG -->
+                            <div class="">
+                                <img src="https://i.ibb.co/SvSXPsf/Ellipse.png" alt="">
+                            </div>
+                            <!--  -->
+                            <div class="absolute top-0 md:top-20">
+                                <img class="" src="https://i.ibb.co/KwYYhrB/Element-7.png" alt="">
+                            </div>
+                            <!-- manImage -->
+                            <div class="absolute z-10 top-[-80px]">
+                                <img class=""
+                                    src="https://i.ibb.co/rFzTGy9/portrait-cheerful-young-man-plaid-shirt-1.png" alt="">
+                                <!-- graphCard -->
+                                <div
+                                    class="bg-white absolute top-20 right-[-20px] w-[220px] h-[180px] p-[15px]  rounded-[20px] rotate-[-20deg] first_hero_Shadow z-[-5]">
+                                    <div class="">
+                                        <img class="mx-auto" src="https://i.ibb.co/smzkK2V/Line-Chart.png" alt="">
+                                        <div class="flex justify-center items-center gap-2 mt-[5px]">
+                                            <i
+                                                class="fa-solid fa-angles-up p-[4px] text-[16px] rounded-[7px] text-[#2FC6A2] bg-black"></i>
+                                            <p class="text-[14px] font-bold text-[24px]">120.99k</p>
+                                            <p class="text-[14px] text-red-400">+12%</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- sourceChart -->
+                                <div
+                                    class="bg-white w-[200px] h-[250px]  rounded-[20px] rotate-[-20deg] absolute bottom-0 left-14 first_hero_Shadow ">
+                                    <div class="pt-[24px] px-[24px]">
+                                        <p class="text-start text-[16px] font-bold">Sources</p>
+                                    </div>
+                                    <div class="relative">
+                                        <img class="mx-auto" src="https://i.ibb.co/wNdfSGs/Metric.png" alt="">
+                                        <div class="absolute top-[35%] left-[34%] text-center">
+                                            <p class="text-[14px]">Total</p>
+                                            <p class="text-[18px] font-bold">140.90k</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="absolute bottom-10 md:bottom-10 lg:top-64 right-0  lg:left-[200px]">
+                <img class="w-full" src="https://i.ibb.co/6gVDndv/Line.png" alt="">
+            </div>
+        </div>
+    </header>
+    <!-- This__is_navbar END-->
+
+    <!-- Trusted by 20,000 people START-->
+    <section class="">
+        <div class="container bg-[#FF4847] rounded-[32px] py-[100px] px-[50px] relative">
+            <div class="">
+                <img class="absolute top-[-35px] right-60" src="https://i.ibb.co/GsVTkDZ/Element-9.png" alt="">
+            </div>
+            <div class="grid gap-10 grid-cols-1 lg:grid-cols-2 pb-[60px]">
+                <div class="">
+                    <h3 class="text-[36px] text-white font-bold leading-[42px]">
+                        Trusted by 20,000+ <br>
+                        customers across the world
+                    </h3>
+                    <p class="mt-[20px]">
+                        <a class="font-bold text-[18px] leading-[28px] text-white border-b" href="">WATCH THEIR
+                            STORY</a>
+                    </p>
+                </div>
+                <div class="flex flex-wrap items-center gap-40">
+                    <img src="https://i.ibb.co/xDyZ6fD/askimat.png" alt="">
+                    <img src="https://i.ibb.co/KL0WGT5/Logo-2.png" alt="">
+                    <img src="https://i.ibb.co/KL0WGT5/Logo-2.png" alt="">
+                    <img src="https://i.ibb.co/sgv2Kd6/Group-188.png" alt="">
+                    <img src="https://i.ibb.co/KVXcvs0/Logo-3.png" alt="">
+                </div>
+            </div>
+            <div
+                class="grid gap-20 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center border-t-2 border-black border-opacity-20 pt-[60px]">
+                <div class="">
+                    <p class="text-[18px] font-medium text-white leading-[28px] opacity-[0.8]">
+                        Donec bibendum, dui id ultrices molestie, neque neque
+                        porta felis, id viverra ligula justo interdum mi.
+                    </p>
+                </div>
+                <div class="flex flex-col gap-5">
+                    <h3 class="text-[60px] font-bold leading-[64px] text-white">4.8</h3>
+                    <div class="">
+                        <i class="fa-solid fa-star text-[16px] text-[#FFD88D]"></i>
+                        <i class="fa-solid fa-star text-[16px] text-[#FFD88D]"></i>
+                        <i class="fa-solid fa-star text-[16px] text-[#FFD88D]"></i>
+                        <i class="fa-solid fa-star text-[16px] text-[#FFD88D]"></i>
+                        <i class="fa-solid fa-star text-[16px] text-[#FFD88D]"></i>
+                    </div>
+                    <p class="text-[18px] font-medium text-white leading-[28px]">
+                        Trustpilot
+                    </p>
+                </div>
+                <div class="flex flex-col gap-5 px-[110px] border-r border-l border-black border-opacity-20">
+                    <h3 class="text-[60px] font-bold leading-[64px] text-white">4.5</h3>
+                    <div class="">
+                        <i class="fa-solid fa-star text-[16px] text-[#FFD88D]"></i>
+                        <i class="fa-solid fa-star text-[16px] text-[#FFD88D]"></i>
+                        <i class="fa-solid fa-star text-[16px] text-[#FFD88D]"></i>
+                        <i class="fa-solid fa-star text-[16px] text-[#FFD88D]"></i>
+                        <i class="fa-solid fa-star text-[16px] text-[#FFD88D]"></i>
+                    </div>
+                    <p class="text-[18px] font-medium text-white leading-[28px]">
+                        Capterra
+                    </p>
+                </div>
+                <div class="flex flex-col gap-5">
+                    <h3 class="text-[60px] font-bold leading-[64px] text-white">4.9</h3>
+                    <div class="">
+                        <i class="fa-solid fa-star text-[16px] text-[#FFD88D]"></i>
+                        <i class="fa-solid fa-star text-[16px] text-[#FFD88D]"></i>
+                        <i class="fa-solid fa-star text-[16px] text-[#FFD88D]"></i>
+                        <i class="fa-solid fa-star text-[16px] text-[#FFD88D]"></i>
+                        <i class="fa-solid fa-star text-[16px] text-[#FFD88D]"></i>
+                    </div>
+                    <p class="text-[18px] font-medium text-white leading-[28px]">
+                        Apple store
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Trusted by 20,000 people END-->
+
+    <!-- Features Playing off START -->
+    <section>
+        <div class="container">
+            <div class="my-[150px] relative">
+                <div class="">
+                    <img class="absolute" src="https://i.ibb.co/s2CBLPx/Element.png" alt="">
+                </div>
+                <div class="md:w-[610px] mx-auto text-center mb-[64px]">
+                    <p class="text-[14px] font-bold leading-[20px] text_primary m-[16px]">Features</p>
+                    <h2>
+                        <span class="text_primary">Paying off</span> and adjust your strategy.
+                    </h2>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-20 justify-between">
+                    <div class="px-[24px] h-[280px] w-full features_Shadow bg-white rounded-[16px]">
+                        <div class="mt-[36px] mb-[40px]">
+                            <i class="fa-solid fa-gear text-[22px] text_primary"></i>
+                        </div>
+                        <div class="mb-[70px]">
+                            <h4 class="mb-[16px]">Analyze your data</h4>
+                            <p class="text-[16px] font-medium text-[#808D9E]">
+                                Resource management is the process of pre-planing,
+                            </p>
+                        </div>
+                    </div>
+                    <div class="px-[24px] h-[280px] w-full features_Shadow bg-white rounded-[16px] md:mt-[70px]">
+                        <div class="mt-[36px] mb-[40px]">
+                            <i class="fa-solid fa-chart-line text-[22px] text_primary"></i>
+                        </div>
+                        <div class="mb-[70px]">
+                            <h4 class="mb-[16px]">Embedded Analytics</h4>
+                            <p class="text-[16px] font-medium text-[#808D9E]">
+                                Resource management is the process of pre-planing,
+                            </p>
+                        </div>
+                    </div>
+                    <div class="px-[24px] h-[280px] w-full features_Shadow bg-white rounded-[16px]">
+                        <div class="mt-[36px] mb-[40px]">
+                            <i class="fa-solid fa-user-group text-[22px] text_primary"></i>
+                        </div>
+                        <div class="mb-[70px]">
+                            <h4 class="mb-[16px]">Collaborate securely</h4>
+                            <p class="text-[16px] font-medium text-[#808D9E]">
+                                Resource management is the process of pre-planing,
+                            </p>
+                        </div>
+                    </div>
+                    <div class="px-[24px] h-[280px] w-full features_Shadow bg-white rounded-[16px] md:mt-[70px]">
+                        <div class="mt-[36px] mb-[40px]">
+                            <i class="fa-regular fa-file-lines text-[22px] text_primary"></i>
+                        </div>
+                        <div class="mb-[70px]">
+                            <h4 class="mb-[16px]">Unified reporting</h4>
+                            <p class="text-[16px] font-medium text-[#808D9E]">
+                                Resource management is the process of pre-planing,
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Features Playing off END -->
+
+    <!-- Powerful Analytics START -->
+    <section class="mt-[40px] overflow-hidden">
+        <div class="container">
+            <div class="bg-[#1D1E25] z-[-5] w-full rounded-[32px] relative">
+                <div class="">
+                    <img class="absolute right-0 bottom-0 z-[-10]" src="https://i.ibb.co/CKbV084/Element-1.png" alt="">
+                </div>
+                <!-- Transform Work -->
+                <div class="f_f">
+                </div>
+                <div class="flex lg:flex-row flex-col gap-[20px] lg:gap-[200px] items-center">
+                    <div class="lg:w-[470px] my-[116px] ml-[20px] lg:ml-[80px]">
+                        <div class="mt-[16px] mb-[32px]">
+                            <p class="text-[14px] font-bold leading-[20px] text_primary">POWERFUL ANALYTICS</p>
+                            <h2 class="text-white">Scale <span class="text_primary">faster</span> then ever before with
+                                Saasco</h2>
+                        </div>
+                        <div class="flex md:flex-row flex-col itms-center gap-20">
+                            <div class="">
+                                <i class="fa-solid fa-gear text-[18px] text_primary mb-[20px] text-white"></i>
+                                <p class="text-[20px] leading-[26px] font-bold mb-[16px] text-white">Powerful dashboard
+                                </p>
+                                <p class="text-[16px] text-white opacity-[0.5]">Combine multiple reports into a single
+                                    dashboard</p>
+                            </div>
+                            <div class="">
+                                <i class="fa-solid fa-gear text-[18px] text_primary mb-[20px] text-white"></i>
+                                <p class="text-[20px] leading-[26px] font-bold mb-[16px] text-white">Powerful dashboard
+                                </p>
+                                <p class="text-[16px] text-white opacity-[0.5]">Combine multiple reports into a single
+                                    dashboard</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- **** -->
+                    <div class="relative">
+                        <div class="">
+                            <img class="" src="https://i.ibb.co/85Ljj8Q/Img.png" alt="">
+                            <div class="absolute top-[40%] left-0 z-[-1]">
+                                <img src="https://i.ibb.co/1rLYPZ4/Design-Element.png" alt="">
+                            </div>
+                        </div>
+                        <!-- Channel -->
+                        <div class="absolute top-[210px] right-[-15px]">
+                            <div
+                                class="bg-white features_Shadow w-[180px] h-[180px] rounded-[16px] p-[20px] rotate-[-10deg]">
+                                <p class="text-[15px] font-bold leading-[20px] mb-[16px]">Channel</p>
+                                <div class="flex gap-3 items-center bg-[#F5F8F7] rounded-[4px] py-[3px] px-[7px]">
+                                    <div class="relative">
+                                        <i class="fa-solid fa-message text-[16px] text-red-600"></i>
+                                        <i
+                                            class="fa-solid fa-heart text-[9px] absolute left-[3px] top-[6px] text-white"></i>
+                                    </div>
+                                    <p class="text-[12px] font-normal">Welcome</p>
+                                </div>
+                                <div
+                                    class="flex gap-3 items-center bg-[#F5F8F7] rounded-[4px] py-[3px] px-[7px] my-[10px]">
+                                    <div class="">
+                                        <i class="fa-solid fa-user text-[16px] text-[#725BFF]"></i>
+                                    </div>
+                                    <p class="text-[12px] font-normal">Introduction</p>
+                                </div>
+                                <div
+                                    class="flex gap-3 items-center bg-[#F5F8F7] rounded-[4px] py-[3px] px-[7px] my-[10px]">
+                                    <div class="">
+                                        <i class="fa-solid fa-bullseye text-[16px] text-slate-400"></i>
+                                    </div>
+                                    <p class="text-[12px] font-normal">Basic</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- HeaderRateGraph -->
+                        <div class="z-[-1] rotate-[-10deg] absolute bottom-[20px] right-[-60px]">
+                            <div
+                                class="features_Shadow py-[55px] px-[30px] w-[272px] h-[180px] bg-white rounded-[16px]">
+                                <div class="flex items-center gap-3">
+                                    <div class="">
+                                        <p class="text-[14px] font-normal text-[#224272] opacity-[0.6] mb-[16px]">Reader
+                                            Rates
+                                        </p>
+                                        <p class="text-[24px] font-bold leading-[31px] text-[#5049AA] mb-[10px]">3,729
+                                        </p>
+                                        <div class="flex gap-2 items-center">
+                                            <i class="fa-solid fa-arrow-up text-[#4AAF05] text-[8px]"></i>
+                                            <p class="text-[#4AAF05] text-[12px] font-normal leading-[16px]">7,00 %</p>
+                                        </div>
+                                    </div>
+                                    <div class="">
+                                        <img src="https://i.ibb.co/kqqd8jr/Vector-1-1.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Powerful Analytics END -->
+
+    <!-- Collaborate START -->
+    <section class="pt-[150px]">
+        <div class="container">
+            <div class="flex lg:flex-row flex-col justify-between gap-32 items-center">
+                <div class="flex md:flex-row flex-col justify-center lg:justify-normal gap-14 items-center">
+                    <div class="absolute">
+                        <img class="z-[-10]" src="https://i.ibb.co/tm7WX4f/Line.png" alt="">
+                    </div>
+                    <!-- Data Save -->
+                    <div class="md:mt-[100px] z-[5]">
+                        <div class="flex">
+                            <div class="md:rotate-[-10deg]">
+                                <div class="features_Shadow p-[25px] w-[280px] h-[310px] bg-white rounded-[16px]">
+                                    <div class="">
+                                        <div class="">
+                                            <div class="">
+                                                <p
+                                                    class="text-[18px] font-bold leading-[31px] text-black opacity-[0.8]">
+                                                    Data Save
+                                                </p>
+                                                <p class="text-[14px] font-normal text-[#224272] opacity-[0.9]">
+                                                    Viverra tristique
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="pt-[15px] flex justify-center">
+                                            <img src="https://i.ibb.co/LpBRWNj/Group-46.png" alt="">
+                                            <div class="absolute">
+                                                <div class="flex items-center gap-2">
+                                                    <p class="text_primary text-[18px] font-bold">
+                                                        $
+                                                    </p>
+                                                    <p class="text-[21px] font-bold">
+                                                        82,347
+                                                    </p>
+                                                </div>
+                                                <p>Facilisi in magna mauris</p>
+                                            </div>
+                                        </div>
+                                        <div class="flex gap-5 mt-5">
+                                            <p class="text-[13px] font-normal text-[#224272] opacity-[0.9]">
+                                                Facilisis
+                                            </p>
+                                            <p class="text-[13px] font-normal text-[#224272] opacity-[0.9]">
+                                                Sed
+                                            </p>
+                                            <p class="text-[13px] font-normal text_primary opacity-[0.9]">
+                                                Molestie
+                                            </p>
+                                            <p class="text-[13px] font-normal text-[#224272] opacity-[0.9]">
+                                                Cursus
+                                            </p>
+                                            <p class="text-[13px] font-normal text-[#224272] opacity-[0.9]">
+                                                Elit
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex gap-10 z-[5] flex-col md:rotate-[-10deg]">
+                        <!-- New Users -->
+                        <div class="flex">
+                            <div class="">
+                                <div class="features_Shadow p-[25px] w-[205px] h-[190px] bg-white rounded-[16px]">
+                                    <div class="">
+                                        <div class="flex items-center gap-6">
+                                            <div class="">
+                                                <i class="fa-solid fa-user text-[18px]
+                                        text-white px-[10px] py-[14px]  bg-black rounded-[8px]"></i>
+                                            </div>
+                                            <div class="">
+                                                <p class="text-[14px] font-normal text-[#224272] opacity-[0.9]">
+                                                    New Users
+                                                </p>
+                                                <p
+                                                    class="text-[18px] font-bold leading-[31px] text-black opacity-[0.8]">
+                                                    42,387
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="pt-[30px]">
+                                            <img src="https://i.ibb.co/wdR1WLJ/Line-8.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Data transfer -->
+                        <div class="flex">
+                            <div class="">
+                                <div class="features_Shadow p-[20px] w-[205px] h-[190px] bg-white rounded-[16px]">
+                                    <div class="ww">
+                                        <div class="">
+                                            <div class="">
+                                                <p
+                                                    class="text-[15px] font-bold leading-[31px] text-black opacity-[0.8]">
+                                                    Data transfer
+                                                </p>
+                                                <p class="text-[12px] font-normal text-[#224272]">
+                                                    Viverra tristique
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="pt-[30px] relative">
+                                            <div class="">
+                                                <div class="absolute right-10 top-0 z-[5]">
+                                                    <p
+                                                        class="flex items-center justify-center w-[75px] h-[75px] bg-black text-white rounded-full text-[22px] leading-[28px] font-bold">
+                                                        89.7
+                                                    </p>
+                                                </div>
+                                                <div class="absolute right-32 top-10 z-[4]">
+                                                    <p
+                                                        class="flex items-center justify-center w-[55px] h-[55px] bg_primary text-white rounded-full text-[22px] leading-[28px] font-bold">
+                                                        23
+                                                    </p>
+                                                </div>
+                                                <div class="absolute right-24 
+                                        top-[65px]">
+                                                    <p
+                                                        class="flex items-center justify-center w-[40px] h-[40px] bg-[#FF9515] text-white rounded-full text-[22px] leading-[28px] font-bold">
+                                                        12
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- collaborate -->
+                <div class="">
+                    <div class="md:w-[650px]">
+                        <div class="mb-[30px]">
+                            <p class="text-[14px] font-bold leading-[20px] text_primary mb-[16px]">COLLABORATE</p>
+                            <h2>
+                                Describe your products for all <span class="text_primary">customers</span>
+                            </h2>
+                        </div>
+                        <div class="mb-[48px]">
+                            <div class="flex lg:flex-row flex-col gap-[12px] md:gap-32">
+                                <div class="">
+                                    <li class="flex items-center gap-3 mb-[12px]">
+                                        <i class="fa-solid fa-circle-check text-[18px]"></i>
+                                        <p class="text-[18px] font-medium leading-[28px]">
+                                            Organize your data
+                                        </p>
+                                    </li>
+                                    <li class="flex items-center gap-3 mb-[12px]">
+                                        <i class="fa-solid fa-circle-check text-[18px]"></i>
+                                        <p class="text-[18px] font-medium leading-[28px]">
+                                            Work with any team
+                                        </p>
+                                    </li>
+                                    <li class="flex items-center gap-3">
+                                        <i class="fa-solid fa-circle-check text-[18px]"></i>
+                                        <p class="text-[18px] font-medium leading-[28px]">
+                                            Business analytics
+                                        </p>
+                                    </li>
+                                </div>
+                                <div class="">
+                                    <li class="flex items-center gap-3 mb-[12px]">
+                                        <i class="fa-solid fa-circle-check text-[18px]"></i>
+                                        <p class="text-[18px] font-medium leading-[28px]">
+                                            Always in sync
+                                        </p>
+                                    </li>
+                                    <li class="flex items-center gap-3 mb-[12px]">
+                                        <i class="fa-solid fa-circle-check text-[18px]"></i>
+                                        <p class="text-[18px] font-medium leading-[28px]">
+                                            Embedded analytics
+                                        </p>
+                                    </li>
+                                </div>
+                            </div>
+                        </div>
+                        <button
+                            class="text-[16px] leading-[20px] font-bold text-white bg_primary px-[32px] py-[16px] rounded-[8px]">
+                            Get started now
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Collaborate END -->
+
+    <!-- Dashboard START -->
+    <section class="pb-[92px]">
+        <div class="mt-[150px]">
+            <div class="">
+                <div class="text-center lg:w-[700px] mx-auto">
+                    <p class="text-[14px] font-bold text_primary mb-[16px]">Dashboard</p>
+                    <h2 class="mb-[64px]">
+                        Create a social media <span class="text_primary">strategy that works.</span>
+                    </h2>
+                </div>
+                <!-- <******** -->
+                <section class="mt-[40px] mb-32 relative">
+                    <div class="">
+                        <img class="w-full absolute bottom-[-200px] z-[-999]" src="https://i.ibb.co/4NHTwsM/Line-2.png"
+                            alt="">
+                    </div>
+                    <div class="container">
+                        <div class="z-[-5] w-full rounded-[32px] relative">
+                            <div class="absolute top-[30%] left-[-25px]">
+                                <img class="z-[10]" src="https://i.ibb.co/KbCZsG8/Element-1.png" alt="">
+                            </div>
+                            <div class="absolute bottom-[30%] right-[-25px]">
+                                <img class="z-[10]" src="https://i.ibb.co/Mfv6ZxQ/Element-2.png" alt="">
+                            </div>
+                            <div class="">
+                                <img class="absolute right-0 bottom-0 z-[-10]"
+                                    src="https://i.ibb.co/CKbV084/Element-1.png" alt="">
+                            </div>
+                            <!-- dashboard ui-->
+                            <div class=" w-full bg-[#fff] lg:h-[700px] rounded-t-[50px]">
+                                <div class="h-[60px] bg-black rounded-tl-[45px] rounded-tr-[45px]">
+                                    <!-- 3Dots-->
+                                    <div class="pt-[30px] ml-[25px] flex gap-5">
+                                        <div class="w-[16px] h-[16px] bg-[#EB5757] rounded-full "></div>
+                                        <div class="w-[16px] h-[16px] bg-[#F2C94C] rounded-full "></div>
+                                        <div class="w-[16px] h-[16px] bg-[#83BF6E] rounded-full "></div>
+                                    </div>
+                                </div>
+                                <div class="flex ">
+                                    <div class="hidden lg:block w-[175px] h-[515px] ml-[30px] mt-[18px]">
+                                        <div class=" px-[26px] py-[18px]">
+                                            <p class="text-[16px] font-bold leading-[21px] mb-[32px]">
+                                                saasco
+                                                <span class="text_primary">
+                                                    .
+                                                </span>
+                                            </p>
+                                            <div class="mb-[41px]">
+                                                <div class="h-[10px] w-[70%] mb-[8px] bg-[#F8F8F8] rounded-full"></div>
+                                                <div class="h-[10px] w-[50%] mb-[8px] bg-[#F8F8F8] rounded-full"></div>
+                                            </div>
+                                            <div class="mb-[37px]">
+                                                <div class="h-[10px] w-full bg-[#F8F8F8] rounded-full"></div>
+                                            </div>
+                                            <div class="mb-[37px]">
+                                                <div class="h-[10px] w-full bg-[#F8F8F8] rounded-full"></div>
+                                            </div>
+                                            <div class="mb-[37px]">
+                                                <div class="h-[10px] w-full bg-[#F8F8F8] rounded-full"></div>
+                                            </div>
+                                            <div class="mb-[37px]">
+                                                <div class="h-[10px] w-full bg-[#F8F8F8] rounded-full"></div>
+                                            </div>
+                                            <div class="mb-[37px]">
+                                                <div class="h-[10px] w-full bg-[#F8F8F8] rounded-full"></div>
+                                            </div>
+                                        </div>
+                                        <div class="absolute bottom-0">
+                                            <img src="https://i.ibb.co/GpwywZ5/Element.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="w-full mt-[36px] px-[39px]">
+                                        <!-- Name&SearchIcon -->
+                                        <div class="flex justify-between mb-[23px]">
+                                            <div class="">
+                                                <h4 class="mb-[7px]">
+                                                    Hi, Smith
+                                                </h4>
+                                                <p class="text-[12px] font-normal leading-[18px]">
+                                                    You sales analytics this week
+                                                </p>
+                                            </div>
+                                            <div class="flex gap-4 items-center">
+                                                <i class="fa-solid fa-magnifying-glass text-[14px]"></i>
+                                                <p class="text-[14px] font-medium leading-[23px]">Search here</p>
+                                            </div>
+                                        </div>
+                                        <!-- AllGraphCard -->
+                                        <div
+                                            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-10">
+                                            <!-- graphCard -->
+                                            <div
+                                                class="bg-white lg:w-[250px] p-[20px]  rounded-[20px] first_hero_Shadow ">
+                                                <div class="">
+                                                    <img class="mx-auto mb-[13px mt-[16px]"
+                                                        src="https://i.ibb.co/FnsKptr/Vector-16.png" alt="">
+                                                    <div
+                                                        class="flex justify-center items-center gap-2 mt-[5px] py-[14px]">
+                                                        <i
+                                                            class="fa-solid fa-angles-down p-[4px] text-[16px] rounded-[7px] text-[#FF6A55] bg-[#FEF3F2]"></i>
+                                                        <p class="font-bold text-[26px] leading-[32px]">120.99k</p>
+                                                        <p
+                                                            class="text-[12px] font-normal leading-[17px] text-[#FF6A55]">
+                                                            -12%</p>
+                                                    </div>
+                                                    <p
+                                                        class="text-[12px] text-[#808D9E] font-normal text-center leading-[13px]">
+                                                        Compared from Last Week
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="bg-white lg:w-[250px] p-[20px]  rounded-[20px] first_hero_Shadow ">
+                                                <div class="">
+                                                    <img class="mx-auto mb-[13px mt-[16px]"
+                                                        src="https://i.ibb.co/WVd2Ynq/Vector-18.png" alt="">
+                                                    <div
+                                                        class="flex justify-center items-center gap-2 mt-[5px] py-[14px]">
+                                                        <i
+                                                            class="fa-solid fa-angles-up p-[4px] text-[16px] rounded-[7px] text-[#83BF6E] bg-[#ECFDF3]"></i>
+                                                        <p class="font-bold text-[26px] leading-[32px]">$2.1M</p>
+                                                        <p
+                                                            class="text-[12px] font-normal leading-[17px] text-[#83BF6E]">
+                                                            +2.4%</p>
+                                                    </div>
+                                                    <p
+                                                        class="text-[12px] text-center  text-[#808D9E] font-normal leading-[13px]">
+                                                        Compared from Last Week
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="bg-white lg:w-[250px] p-[20px]  rounded-[20px] first_hero_Shadow ">
+                                                <div class="">
+                                                    <img class="mx-auto mb-[13px mt-[16px]"
+                                                        src="https://i.ibb.co/Mh6Gprt/Line-Chart.png" alt="">
+                                                    <div
+                                                        class="flex justify-center items-center gap-2 mt-[5px] py-[14px]">
+                                                        <i
+                                                            class="fa-solid fa-angles-down p-[4px] text-[16px] rounded-[7px] text-[#FF6A55] bg-[#FEF3F2]"></i>
+                                                        <p class="font-bold text-[26px] leading-[32px]">$982k</p>
+                                                        <p
+                                                            class="text-[12px] font-normal leading-[17px] text-[#FF6A55]">
+                                                            -9.7%</p>
+                                                    </div>
+                                                    <p
+                                                        class="text-[12px] text-[#808D9E] font-normal text-center leading-[13px]">
+                                                        Compared from Last Week
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="bg-white lg:w-[250px] p-[20px]  rounded-[20px] first_hero_Shadow ">
+                                                <div class="">
+                                                    <img class="mx-auto mb-[13px mt-[16px]"
+                                                        src="https://i.ibb.co/5RKsk8q/Vector-17.png" alt="">
+                                                    <div
+                                                        class="flex justify-center items-center gap-2 mt-[5px] py-[14px]">
+                                                        <i
+                                                            class="fa-solid fa-angles-up p-[4px] text-[16px] rounded-[7px] text-[#83BF6E] bg-[#ECFDF3]"></i>
+                                                        <p class="font-bold text-[26px] leading-[32px]">120.99k</p>
+                                                        <p
+                                                            class="text-[12px] font-normal leading-[17px] text-[#83BF6E]">
+                                                            +12%</p>
+                                                    </div>
+                                                    <p
+                                                        class="text-[12px] text-center  text-[#808D9E] font-normal leading-[13px]">
+                                                        Compared from Last Week
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="flex lg:flex-row flex-col justify-between mt-[27px] gap-10">
+                                            <!-- BigGraphCard -->
+                                            <div class="lg:w-[72%] bg-white features_Shadow rounded-[20px] h-[380px]">
+                                                <div class="">
+                                                    <!-- cardName -->
+                                                    <div class="py-[32px] px-[20px]">
+                                                        <div class="flex lg:flex-row flex-col justify-between">
+                                                            <p
+                                                                class="text-[17px] font-bold leading-[25px] text-[#1D1E25]">
+                                                                Sales Figures
+                                                            </p>
+                                                            <div class="flex gap-5">
+                                                                <div
+                                                                    class="text-[12px] font-normal leaading-[13px] text-[#667085] flex items-center gap-3">
+                                                                    <p class="h-[5px] w-[5px] 
+                                                                bg-[#8E59FF] rounded-full">
+                                                                    </p>
+                                                                    <p>Advertisement</p>
+                                                                </div>
+                                                                <div
+                                                                    class="text-[12px] font-normal leaading-[13px] text-[#667085] flex items-center gap-3">
+                                                                    <p class="h-[5px] w-[5px] 
+                                                                bg-[#01C0F6] rounded-full">
+                                                                    </p>
+                                                                    <p>Marketing</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="pl-[20px] pb-[13px]">
+                                                    <div class="flex">
+                                                        <div class="flex justify-between flex-col gap-[20px]">
+                                                            <p
+                                                                class="text-[10px] font-normal leading-[13px] text-[#808D9E]">
+                                                                12K
+                                                            </p>
+                                                            <p
+                                                                class="text-[10px] font-normal leading-[13px] text-[#808D9E]">
+                                                                10K
+                                                            </p>
+                                                            <p
+                                                                class="text-[10px] font-normal leading-[13px] text-[#808D9E]">
+                                                                8K
+                                                            </p>
+                                                            <p
+                                                                class="text-[10px] font-normal leading-[13px] text-[#808D9E]">
+                                                                6K
+                                                            </p>
+                                                            <p
+                                                                class="text-[10px] font-normal leading-[13px] text-[#808D9E]">
+                                                                4K
+                                                            </p>
+                                                            <p
+                                                                class="text-[10px] font-normal leading-[13px] text-[#808D9E]">
+                                                                2K
+                                                            </p>
+                                                        </div>
+                                                        <img class="px-[26px] w-full"
+                                                            src="https://i.ibb.co/tPc18qy/Line-1.png" alt="">
+                                                    </div>
+                                                    <div
+                                                        class="flex justify-between pr-[30px] pl-[40px] mt-[13px] gap-[10px]">
+                                                        <p
+                                                            class="text-[10px] font-normal leading-[13px] text-[#808D9E]">
+                                                            9 am
+                                                        </p>
+                                                        <p
+                                                            class="text-[10px] font-normal leading-[13px] text-[#808D9E]">
+                                                            10 am
+                                                        </p>
+                                                        <p
+                                                            class="text-[10px] font-normal leading-[13px] text-[#808D9E]">
+                                                            11 am
+                                                        </p>
+                                                        <p class="text-[10px] font-bold leading-[13px] text-[#808D9E]">
+                                                            12 am
+                                                        </p>
+                                                        <p
+                                                            class="text-[10px] font-normal leading-[13px] text-[#808D9E]">
+                                                            1 pm
+                                                        </p>
+                                                        <p
+                                                            class="text-[10px] font-normal leading-[13px] text-[#808D9E]">
+                                                            2 pm
+                                                        </p>
+                                                        <p
+                                                            class="text-[10px] font-normal leading-[13px] text-[#808D9E]">
+                                                            3 pm
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- sourceChart -->
+                                            <div
+                                                class="mx-auto bg-white w-[65%] h-[380px] lg:w-[20%] rounded-[20px] first_hero_Shadow px-[20px] py-[13px] lg:mr-[34px]">
+                                                <div class="pt-[15px] mb-[12px]">
+                                                    <p class="text-start text-[16px] font-bold">Sources</p>
+                                                </div>
+                                                <div class="relative">
+                                                    <img class="mx-auto" src="https://i.ibb.co/4FZ9zXc/Pie-Chart-1.png"
+                                                        alt="">
+                                                    <div class="absolute top-[35%] left-[34%] text-center">
+                                                        <p class="text-[14px]">Total</p>
+                                                        <p class="text-[18px] font-bold">140.90k</p>
+                                                    </div>
+                                                </div>
+                                                <div class="mt-[18px]">
+                                                    <div class="flex mb-[15px] items-center justify-between">
+                                                        <div class="flex gap-3">
+                                                            <p class="h-[8px] w-[8px] rounded-full bg-[#8E59FF]"></p>
+                                                            <p class="bg-[#F9FAFF] rounded-full h-[8px] w-[100px]"></p>
+                                                        </div>
+                                                        <p class="text-[12px] font-bold leading-[15px]">66.324K</p>
+                                                    </div>
+                                                    <div class="flex mb-[15px] items-center justify-between">
+                                                        <div class="flex gap-3">
+                                                            <p class="h-[8px] w-[8px] rounded-full bg-[#20BFF7]"></p>
+                                                            <p class="bg-[#F9FAFF] rounded-full h-[8px] w-[100px]"></p>
+                                                        </div>
+                                                        <p class="text-[12px] font-bold leading-[15px]">35.244K</p>
+                                                    </div>
+                                                    <div class="flex mb-[15px] items-center justify-between">
+                                                        <div class="flex gap-3">
+                                                            <p class="h-[8px] w-[8px] rounded-full bg-[#FFBC99]"></p>
+                                                            <p class="bg-[#F9FAFF] rounded-full h-[8px] w-[100px]"></p>
+                                                        </div>
+                                                        <p class="text-[12px] font-bold leading-[15px]">12.993K</p>
+                                                    </div>
+                                                    <div class="flex items-center justify-between">
+                                                        <div class="flex gap-3">
+                                                            <p class="h-[8px] w-[8px] rounded-full bg-[#83BF6E]"></p>
+                                                            <p class="bg-[#F9FAFF] rounded-full h-[8px] w-[100px]"></p>
+                                                        </div>
+                                                        <p class="text-[12px] font-bold leading-[15px]">8.293K</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+    <!-- Dashboard END -->
+
+    <!-- Integrations START -->
+    <section>
+        <div class="mb-[75px] container">
+            <div class="">
+                <p class="text-[14px] text-center mt-[150px] mb-[52px] font-bold leading-[20px] text_primary">
+                    INTEGRATIONS
+                </p>
+            </div>
+            <div class="">
+                <marquee width="100%" direction="left" height="100px">
+                    <div class="flex gap-10">
+                        <div
+                            class="w-[240px] h-[90px] flex items-center justify-center rounded-[16px] bg-white features_Shadow">
+                            <img class="" src="https://i.ibb.co/47gWY9z/Vector.png" alt="">
+                        </div>
+                        <div
+                            class="w-[240px] h-[90px] flex items-center justify-center rounded-[16px] bg-white features_Shadow">
+                            <img src="https://i.ibb.co/1GwZj6y/akar-icons-github-fill.png" alt="">
+                        </div>
+                        <div
+                            class="w-[240px] h-[90px] flex items-center justify-center rounded-[16px] bg-white features_Shadow">
+                            <img src="https://i.ibb.co/R2034r8/logos-jira.png" alt="">
+                        </div>
+                        <div
+                            class="w-[240px] h-[90px] flex items-center justify-center rounded-[16px] bg-white features_Shadow">
+                            <img src="https://i.ibb.co/Fz3pF0B/logos-slack.png" alt="">
+                        </div>
+                        <div
+                            class="w-[240px] h-[90px] flex items-center justify-center rounded-[16px] bg-white features_Shadow">
+                            <img class="" src="https://i.ibb.co/872Ltv9/image-56.png" alt="">
+                        </div>
+                    </div>
+                </marquee>
+                <marquee class="mt-[25px]" width="100%" direction="right" height="100px">
+                    <div class="flex gap-10">
+                        <div
+                            class="w-[240px] h-[90px] flex items-center justify-center rounded-[16px] bg-white features_Shadow">
+                            <img class="" src="https://i.ibb.co/GVfpbPM/image-60-1.png" alt="">
+                        </div>
+                        <div
+                            class="w-[240px] h-[90px] flex items-center justify-center rounded-[16px] bg-white features_Shadow">
+                            <img src="https://i.ibb.co/JCqY1CW/Group-1000004959.png" alt="">
+                        </div>
+                        <div
+                            class="w-[240px] h-[90px] flex items-center justify-center rounded-[16px] bg-white features_Shadow">
+                            <img src="https://i.ibb.co/FxfpMYV/image-61.png" alt="">
+                        </div>
+                        <div
+                            class="w-[240px] h-[90px] flex items-center justify-center rounded-[16px] bg-white features_Shadow">
+                            <img src="https://i.ibb.co/NjQ54Fk/Group-1000004968.png" alt="">
+                        </div>
+                        <div
+                            class="w-[240px] h-[90px] flex items-center justify-center rounded-[16px] bg-white features_Shadow">
+                            <img class="" src="https://i.ibb.co/0G3GKzC/Vector-1.png" alt="">
+                        </div>
+                    </div>
+                </marquee>
+            </div>
+        </div>
+    </section>
+    <!-- Integrations END -->
+
+
+    <!-- Testimonials START -->
+    <section class="mt-[150px] overflow-hidden relative pb-[50px]">
+        <div class="absolute bottom-[0px]">
+            <img src="https://i.ibb.co/jRmQQmj/Line-3.png" alt="">
+        </div>
+        <div class="absolute bottom-0 right-[20%]">
+            <img src="https://i.ibb.co/gFfcjKc/Element-3.png" alt="">
+        </div>
+        <div class="container">
+            <div class="bg-[#1D1E25] z-[-5] w-full rounded-[32px] relative">
+                <!-- Transform Work -->
+                <div class="testimonial">
+                </div>
+                <div class="absolute right-[30%] top-[50px]">
+                    <!-- <h2>hlw</h2> -->
+                    <img src="https://i.ibb.co/MZMqK4K/Vector-2.png" alt="">
+                </div>
+                <div class="">
+                    <div class="pt-[100px] px-[50px] flex items-center lg:flex-row flex-col justify-between">
+                        <div class="mt-[16px] mb-[32px] lg:w-[700px]">
+                            <p class="text-[14px] font-bold leading-[20px] text_primary mb-[16px]">TESTIMONIALS</p>
+                            <h2 class="text-white">See what our <span class="text_primary">Customer</span> had to say
+                            </h2>
+                        </div>
+                        <div class="">
+                            <button
+                                class="px-[32px] py-[16px] text-[16px] font-bold leading-[20px]   text-white bg_primary rounded-[8px]">
+                                View all
+                            </button>
+                        </div>
+                    </div>
+                    <!-- **** -->
+                    <div class="relative px-[50px]">
+                        <div class="">
+                            <div class="absolute top-[40%] right-20 bottom-20 z-[-1]">
+                                <img src="https://i.ibb.co/1rLYPZ4/Design-Element.png" alt="">
+                            </div>
+                        </div>
+                        <!-- Card -->
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[40px] pb-[100px] pt-[54px]">
+                            <div class="px-[24px] py-[36px] bg-white rounded-[16px]">
+                                <div class="flex gap-4">
+                                    <i class="fa-solid fa-star text-[#FF9515] text-[18px]"></i>
+                                    <i class="fa-solid fa-star text-[#FF9515] text-[18px]"></i>
+                                    <i class="fa-solid fa-star text-[#FF9515] text-[18px]"></i>
+                                    <i class="fa-solid fa-star text-[#FF9515] text-[18px]"></i>
+                                    <i class="fa-solid fa-star text-[#FF9515] text-[18px]"></i>
+                                </div>
+                                <div class="">
+                                    <p class="text-[16px] font-medium leading-[26px] pt-[20px] pb-[36px]">
+                                        “Our members are so impressed. It's intuitive. It's clean. It's distraction
+                                        free. If you're building a community.
+                                    </p>
+                                </div>
+                                <div class="">
+                                    <h5 class="text-[20px] font-bold leading-[26px]">
+                                        Sabo Masties
+                                    </h5>
+                                    <p class="text-[16px] leading-[22px] font-normal">
+                                        Founder @ Rolex
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="px-[24px] py-[36px] bg-white rounded-[16px]">
+                                <div class="flex gap-4">
+                                    <i class="fa-solid fa-star text-[#FF9515] text-[18px]"></i>
+                                    <i class="fa-solid fa-star text-[#FF9515] text-[18px]"></i>
+                                    <i class="fa-solid fa-star text-[#FF9515] text-[18px]"></i>
+                                    <i class="fa-solid fa-star text-[#FF9515] text-[18px]"></i>
+                                    <i class="fa-solid fa-star text-[#FF9515] text-[18px]"></i>
+                                </div>
+                                <div class="">
+                                    <p class="text-[16px] font-medium leading-[26px] pt-[20px] pb-[36px]">
+                                        “I could not be more thrilled that I ended up deciding on Circle to become the
+                                        home of the Lightbulb Moment community.
+                                    </p>
+                                </div>
+                                <div class="">
+                                    <h5 class="text-[20px] font-bold leading-[26px]">
+                                        John Marko
+                                    </h5>
+                                    <p class="text-[16px] leading-[22px] font-normal">
+                                        Founder @ Migelko
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="px-[24px] py-[36px] bg-white rounded-[16px]">
+                                <div class="flex gap-4">
+                                    <i class="fa-solid fa-star text-[#FF9515] text-[18px]"></i>
+                                    <i class="fa-solid fa-star text-[#FF9515] text-[18px]"></i>
+                                    <i class="fa-solid fa-star text-[#FF9515] text-[18px]"></i>
+                                    <i class="fa-solid fa-star text-[#FF9515] text-[18px]"></i>
+                                    <i class="fa-solid fa-star text-[#FF9515] text-[18px]"></i>
+                                </div>
+                                <div class="">
+                                    <p class="text-[16px] font-medium leading-[26px] pt-[20px] pb-[36px]">
+                                        “I searched far and wide and researched all the other options before making my
+                                        decision.
+                                    </p>
+                                </div>
+                                <div class="">
+                                    <h5 class="text-[20px] font-bold leading-[26px]">
+                                        John Marko
+                                    </h5>
+                                    <p class="text-[16px] leading-[22px] font-normal">
+                                        Founder @ Migelko
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials END -->
+
+    <!-- Dashboard Our latest Update START -->
+    <section>
+        <div class="container">
+            <div class="pt-[60px] flex items-center lg:flex-row flex-col justify-between">
+                <div class="mt-[16px] mb-[32px] lg:w-[700px]">
+                    <p class="text-[14px] font-bold leading-[20px] text_primary mb-[16px]">Dashboard</p>
+                    <h2 class="">
+                        Our latest updates
+                    </h2>
+                </div>
+                <div class="">
+                    <button
+                        class="px-[32px] py-[16px] text-[16px] font-bold leading-[20px]   text-white bg-black rounded-[8px]">
+                        View all
+                    </button>
+                </div>
+            </div>
+            <div class="mt-[64px]">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20">
+                    <div class="">
+                        <div class="">
+                            <img class="w-full" src="https://i.ibb.co/8dHhkDc/Img.png" alt="">
+                        </div>
+                        <div class="mt-[32px]">
+                            <div class="flex gap-5">
+                                <p
+                                    class="text_primary px-[16px] py-[7px] text-[14px] font-medium leading-[14px] bg-white rounded-[4px]">
+                                    CLOUD
+                                </p>
+                                <p
+                                    class="text_primary px-[16px] py-[7px] text-[14px] font-medium leading-[14px] bg-white rounded-[4px]">
+                                    APP
+                                    DEVELOPMENT</p>
+                            </div>
+                            <div class="pt-[16px] pb-[20px] border-b">
+                                <h4>
+                                    15+ Most Effective and Proven Time Management Techniques
+                                </h4>
+                            </div>
+                            <p class="mt-[16px] text-[16px] font-medium leading-[26px]">
+                                October 27,2021|4 min read
+                            </p>
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="">
+                            <img class="w-full" src="https://i.ibb.co/B438SHC/Img-1.png" alt="">
+                        </div>
+                        <div class="mt-[32px]">
+                            <div class="">
+                                <p
+                                    class="text_primary px-[16px] py-[7px] text-[14px] font-medium leading-[14px] bg-white rounded-[4px]">
+                                    SERVER
+                                </p>
+                            </div>
+                            <div class="pt-[16px] pb-[20px] border-b">
+                                <h4>
+                                    15+ Most Effective and Proven Time Management Techniques
+                                </h4>
+                            </div>
+                            <p class="mt-[16px] text-[16px] font-medium leading-[26px]">
+                                October 27,2021|4 min read
+                            </p>
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="">
+                            <img class="w-full" src="https://i.ibb.co/bLQcHCq/Img-2.png" alt="">
+                        </div>
+                        <div class="mt-[32px]">
+                            <div class="">
+                                <p
+                                    class="text_primary px-[16px] py-[7px] text-[14px] font-medium leading-[14px] bg-white rounded-[4px]">
+                                    BUSINESS
+                                </p>
+                            </div>
+                            <div class="pt-[16px] pb-[20px] border-b">
+                                <h4>
+                                    15+ Most Effective and Proven Time Management Techniques
+                                </h4>
+                            </div>
+                            <p class="mt-[16px] text-[16px] font-medium leading-[26px]">
+                                October 27,2021|4 min read
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Dashboard Our latest Update END -->
+
+    <!-- Ready to get started START -->
+    <section class="container">
+        <div class="my-[150px] relative">
+            <div class="absolute">
+                <img src="https://i.ibb.co/v1HtmKW/Line-4.png" alt="">
+            </div>
+            <div class="absolute bottom-0 right-0">
+                <img src="https://i.ibb.co/Vpc2Dnz/Vector-621.png" alt="">
+            </div>
+            <div class="py-[100px] px-[15px] lg:px-[300px] bg-[#FF4847] rounded-[32px]">
+                <div class="text-center">
+                    <h3 class="text-[48px] leading-[52px] font-bold mb-[16px] text-white">
+                        Ready to get started?
+                    </h3>
+                    <p class="text-[18px] font-medium leading-[28px] text-[#F2F4FC]">
+                        Get your first box of clear contact lenses for just £1
+                    </p>
+                </div>
+                <div class="">
+                    <div class="flex items-center justify-center mt-[40px] mb-[24px]">
+                        <div class="relative">
+                            <input type="email" placeholder="Enter your mail"
+                                class="lg:w-[450px] py-[20px] text-[16px] rounded-tl-[4px] rounded-bl-[4px] pl-[40px]"
+                                name="" id="">
+                            <i
+                                class="fa-regular fa-envelope text-[14px] absolute top-1/2 left-5 translate-y-[-50%]"></i>
+                        </div>
+                        <button
+                            class="py-[20px] px-[5px] md:px-[50px] bg-black text-[16px] font-bold text-white rounded-tr-[4px] rounded-br-[4px]">
+                            Get started
+                        </button>
+                    </div>
+                    <div class="mt-[24px] flex md:flex-row flex-col justify-center  gap-14">
+                        <div class="flex items-center text-white gap-4">
+                            <i class="fa-solid fa-check text-[18px]"></i>
+                            <p class="text-[16px] font-medium leading-[24px]">No credit card is required</p>
+                        </div>
+                        <div class="flex items-center text-white gap-4">
+                            <i class="fa-solid fa-check text-[18px]"></i>
+                            <p class="text-[16px] font-medium leading-[24px]">
+                                Get 15 days free trial
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Ready to get started END -->
+
+    <!-- Footer START -->
+    <section class="relative">
+        <div class="absolute top-[16%] left-[5%]">
+            <img src="https://i.ibb.co/44cNghc/Element-4.png" alt="">
+        </div>
+        <div class="absolute top-[-20px] right-[5%]">
+            <img src="https://i.ibb.co/WtrnBT8/Element-5.png" alt="">
+        </div>
+        <div class="absolute bottom-[10%] left-0">
+            <img src="https://i.ibb.co/7Sc9CgM/Element-6.png" alt="">
+        </div>
+        <div class="bg-[#1D1E25] pt-[120px] pb-[88px]">
+            <div class="container">
+                <div class="flex gap-10 md:flex-row flex-wrap justify-between">
+                    <div class="text-white flex flex-col gap-[22px]">
+                        <p class="text-[20px] leading-[26px] font-semibold text-white mb-[18px]">Product</p>
+                        <a class="text-[16px] leading-[20px] font-semibold opacity-[.5]" href="#">Email Row</a>
+                        <a class="text-[16px] leading-[20px] font-semibold opacity-[.5]" href="#">Free Tools</a>
+                        <a class="text-[16px] leading-[20px] font-semibold opacity-[.5]" href="#">Agents</a>
+                        <a class="text-[16px] leading-[20px] font-semibold opacity-[.5]" href="#">Blog</a>
+                    </div>
+                    <div class="text-white flex flex-col gap-[22px]">
+                        <p class="text-[20px] leading-[26px] font-semibold text-white mb-[18px]">Resources</p>
+                        <a class="text-[16px] leading-[20px] font-semibold opacity-[.5]" href="#">Our Agents</a>
+                        <a class="text-[16px] leading-[20px] font-semibold opacity-[.5]" href="#">Member Stories</a>
+                        <a class="text-[16px] leading-[20px] font-semibold opacity-[.5]" href="#">Video</a>
+                        <a class="text-[16px] leading-[20px] font-semibold opacity-[.5]" href="#">Free trial</a>
+                    </div>
+                    <div class="text-white flex flex-col gap-[22px]">
+                        <p class="text-[20px] leading-[26px] font-semibold text-white mb-[18px]">Company</p>
+                        <a class="text-[16px] leading-[20px] font-semibold opacity-[.5]" href="#">Partnerships</a>
+                        <a class="text-[16px] leading-[20px] font-semibold opacity-[.5]" href="#">Terms of use</a>
+                        <a class="text-[16px] leading-[20px] font-semibold opacity-[.5]" href="#">Privacy</a>
+                        <a class="text-[16px] leading-[20px] font-semibold opacity-[.5]" href="#">Sitemap</a>
+                    </div>
+                    <div class="text-white flex flex-col gap-[22px]">
+                        <p class="text-[20px] leading-[26px] font-semibold text-white mb-[18px]">Get in touch</p>
+                        <p class="text-[16px] leading-[20px] font-semibold opacity-[.5]">
+                            You'll find your next marketing value <br> you prefer.
+                        </p>
+                        <p class="text-[16px] leading-[20px] font-semibold opacity-[.5]">
+
+                        </p>
+                        <p class="text-[16px] leading-[20px] font-semibold opacity-[.5]">
+
+                        </p>
+                        <div class="flex gap-5">
+                            <i
+                                class="fa-brands fa-facebook-f text-[18px] p-[10px] bg-white text-black rounded-[6px]"></i>
+                            <i class="fa-brands fa-twitter text-[18px] p-[10px] bg-white text-black rounded-[6px]"></i>
+                            <i
+                                class="fa-brands fa-linkedin-in text-[18px] p-[10px] bg-white text-black rounded-[6px]"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-[88px] flex items-center justify-between">
+                    <h3 class="text-[30px] font-bold leading-[40px] text-white">
+                        Sasrico <span class="text_primary">.</span>
+                    </h3>
+                    <p class="text-[16px] leading-[20px] font-semibold text-white opacity-[0.5]">
+                        Copyright2020.com,All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer END -->
+
+</body>
+<script>
+    const hamburger = document.querySelector(".hamburger");
+    const navMenu = document.querySelector(".nav-menu");
+
+    hamburger.addEventListener("click", mobileMenu);
+
+    function mobileMenu() {
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
+    }
+    const navLink = document.querySelectorAll(".nav-link");
+
+    navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+    function closeMenu() {
+        hamburger.classList.remove("active");
+        navMenu.classList.remove("active");
+    }
+</script>
+
+</html>
