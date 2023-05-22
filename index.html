@@ -13,6 +13,8 @@
     <link rel=" stylesheet" href="./pages/navbar.css">
     <!-- fontAwesome_file_link -->
     <script src="https://kit.fontawesome.com/929eac8290.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.6/dist/full.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body class="overflow-x-hidden bg-[#F8F8F8]">
@@ -24,52 +26,70 @@
                     Sasrico <span class="text-red-500">.</span>
                 </a>
                 <ul class="nav-menu">
-                    <li class="nav-item relative nav-wrapper">
-                        <span class="flex items-center gap-2">
-                            <a href="/index.html" class="nav-link text-[16px] font-medium">Products</a>
-                            <i class="fa-solid fa-sort-down text-[14px]"></i>
-                        </span>
-                        <!-- <ul class="absolute pt-[10px] home-child">
-                            <li class=""><a href="/pages/Home2.html"
-                                    class="nav-link text-[16px] font-medium border-b border-black">Home2</a>
-                            </li>
-                            <li class="mt-[10px]"><a href="/pages/Home3.html"
-                                    class="nav-link text-[16px] font-medium border-b border-black">Home3</a>
-                            </li>
-                        </ul> -->
+                    <li class="nav-item relative nav-wrapper z-10">
+                        <div class="dropdown">
+                            <div class="flex items-center gap-2">
+                                <label tabindex="0" class=" text-[16px] font-medium cursor-pointer">
+                                    <a href="/">Home</a>
+                                </label>
+                                <i class="fa-solid fa-sort-down text-[14px]"></i>
+                            </div>
+                            <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
+                                <li><a href="./pages/home2.html" class="text-[16px] font-medium">Home 2</a></li>
+                                <li><a href="./pages/home3.html" class="text-[16px] font-medium">Home 3</a></li>
+
+                            </ul>
+                        </div>
                     </li>
-                    <li class="nav-item">
-                        <a href="/pages/About.html" class="nav-link text-[16px] font-medium">Pricing</a>
+                    <li class="nav-item relative nav-wrapper z-10">
+                        <div class="dropdown">
+                            <div class="">
+                                <label tabindex="0" class=" text-[16px] font-medium cursor-pointer">
+                                    <a href="#">About</a>
+                                </label>
+                            </div>
+                        </div>
                     </li>
-                    <li class="nav-item relative nav-wrapper">
-                        <span class="flex gap-2 items-center">
-                            <a href="/pages/Courses1.html" class="nav-link text-[16px] font-medium">Recourses</a>
-                            <i class="fa-solid fa-sort-down text-[14px]"></i>
-                        </span>
-                        <!-- <ul class="absolute pt-[10px] home-child">
-                            <li class=""><a href="/pages/Courses2.html"
-                                    class="nav-link text-[16px] font-medium border-b border-black">Course2</a>
-                            </li>
-                            <li class=""><a href="/pages/CourseDetails.html"
-                                    class="nav-link text-[16px] font-medium border-b border-black">Course Details</a>
-                            </li>
-                        </ul> -->
+                    <li class="nav-item relative nav-wrapper z-10">
+                        <div class="dropdown">
+                            <div class="">
+                                <label tabindex="0" class=" text-[16px] font-medium cursor-pointer">
+                                    <a href="#">Services</a>
+                                </label>
+                            </div>
+                        </div>
                     </li>
-                    <li class="nav-item relative nav-wrapper">
-                        <span class="flex gap-2 items-center">
-                            <a href="/pages/Courses1.html" class="nav-link text-[16px] font-medium">Company</a>
-                            <i class="fa-solid fa-sort-down text-[14px]"></i>
-                        </span>
-                        <!-- <ul class="absolute pt-[10px] home-child">
-                            <li class=""><a href="/pages/SingleBlogs.html"
-                                    class="nav-link text-[16px] font-medium border-b border-black">Blogs Details</a>
-                            </li>
-                        </ul> -->
+                    <li class="nav-item relative nav-wrapper z-10">
+                        <div class="dropdown">
+                            <div class="">
+                                <label tabindex="0" class=" text-[16px] font-medium cursor-pointer">
+                                    <a href="#">Features</a>
+                                </label>
+                            </div>
+                        </div>
                     </li>
-                    <li class="nav-item relative nav-wrapper">
-                        <span class="">
-                            <a href="/pages/Instructor.html" class="nav-link text-[16px] font-medium">Contacts</a>
-                        </span>
+                    <li class="nav-item relative nav-wrapper z-10">
+                        <div class="dropdown">
+                            <div class="flex items-center gap-2">
+                                <label tabindex="0" class=" text-[16px] font-medium cursor-pointer">
+                                    <a href="/">Blog</a>
+                                </label>
+                                <i class="fa-solid fa-sort-down text-[14px]"></i>
+                            </div>
+                            <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
+                                <li><a href="./pages/home2.html" class="text-[16px] font-medium">Blog Details</a></li>
+
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item relative nav-wrapper z-10">
+                        <div class="dropdown">
+                            <div class="">
+                                <label tabindex="0" class=" text-[16px] font-medium cursor-pointer">
+                                    <a href="#">Contact</a>
+                                </label>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -1009,7 +1029,6 @@
         </div>
     </section>
     <!-- Integrations END -->
-
 
     <!-- Testimonials START -->
     <section class="mt-[150px] overflow-hidden relative pb-[50px]">

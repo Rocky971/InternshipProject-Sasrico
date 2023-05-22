@@ -1,0 +1,13 @@
+.bgg {
+    background: radial-gradient(81.16% 143.98% at 50% -5.92%, rgba(142, 89, 255, 0.7) 0%, rgba(29, 30, 37, 0) 61.96%);
+    border-radius: 32px;
+    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+    /* border-bottom: 2px solid red; */
+}
+
+/* .home3_readyScaleBg {
+    background-image: url('https://i.ibb.co/9TWh5BD/BG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+} */
