@@ -30,13 +30,14 @@
                         <div class="dropdown">
                             <div class="flex items-center gap-2">
                                 <label tabindex="0" class=" text-[16px] font-medium cursor-pointer">
-                                    <a href="/">Home</a>
+                                    <a class="navbar-link" href="#">Home</a>
                                 </label>
                                 <i class="fa-solid fa-sort-down text-[14px]"></i>
                             </div>
                             <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
-                                <li><a href="./pages/home2.html" class="text-[16px] font-medium">Home 2</a></li>
-                                <li><a href="./pages/home3.html" class="text-[16px] font-medium">Home 3</a></li>
+                                <li><a href="./pages/home2.html" class="text-[16px] font-medium">Home 2</a>
+                                </li>
+                                <li><a href="/pages/home3.html" class="text-[16px] font-medium">Home 3</a></li>
 
                             </ul>
                         </div>
@@ -45,7 +46,7 @@
                         <div class="dropdown">
                             <div class="">
                                 <label tabindex="0" class=" text-[16px] font-medium cursor-pointer">
-                                    <a href="#">About</a>
+                                    <a href="./pages/about.html">About</a>
                                 </label>
                             </div>
                         </div>
@@ -54,7 +55,7 @@
                         <div class="dropdown">
                             <div class="">
                                 <label tabindex="0" class=" text-[16px] font-medium cursor-pointer">
-                                    <a href="#">Services</a>
+                                    <a href="./pages/services.html">Services</a>
                                 </label>
                             </div>
                         </div>
@@ -1361,6 +1362,34 @@
     <!-- Footer END -->
 
 </body>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var links = document.querySelectorAll(".navbar-link");
+
+        links.forEach(function (link) {
+            var clickCount = 0;
+            var timeout;
+
+            link.addEventListener("click", function (event) {
+                clickCount++;
+
+                if (clickCount === 1) {
+                    timeout = setTimeout(function () {
+                        clickCount = 0;
+                        // Perform the default link action here, e.g., window.location.href = link.href;
+                    }, 300); // Adjust the delay (in milliseconds) as needed
+                } else {
+                    clearTimeout(timeout);
+                    clickCount = 0;
+                }
+
+                event.preventDefault();
+            });
+        });
+    });
+</script>
+
+
 <script>
     const hamburger = document.querySelector(".hamburger");
     const navMenu = document.querySelector(".nav-menu");

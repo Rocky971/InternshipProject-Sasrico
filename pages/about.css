@@ -1,0 +1,61 @@
+body {
+    color: #1D1E25;
+    background-color: #F8F8F8;
+    font-family: 'DM Sans', sans-serif !important;
+    overflow-x: hidden;
+}
+
+.urbanistFont {
+    font-family: 'Urbanist', sans-serif !important;
+}
+
+h3 {
+    font-size: 36px !important;
+    font-weight: 700 !important;
+}
+
+h5 {
+    font-size: 24px !important;
+    font-weight: 700 !important;
+}
+
+h6 {
+    font-size: 20px !important;
+    font-weight: 700 !important;
+}
+
+.text-primary {
+    color: #FF4847 !important;
+}
+
+
+.text-secondary {
+    color: #FF9515 !important;
+}
+
+.bg-primary {
+    background-color: #FF4847 !important;
+}
+
+.bg-secondary {
+    background-color: #FF9515 !important;
+}
+
+.heroCard1 {
+    box-shadow: 0px 24.0022px 60.0055px #8d8d8d45;
+}
+
+.heroCard2 {
+    box-shadow: -10.0937px 20.1875px 32.2999px rgba(29, 30, 37, 0.06);
+}
+
+.feturesCard {
+    box-shadow: -15px 30px 48px rgba(29, 30, 37, 0.06);
+    height: 288px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.feturesCard:hover {
+    box-shadow: -15px 30px 48px rgba(29, 30, 37, 0.15);
+}

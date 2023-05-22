@@ -128,3 +128,13 @@ a {
     box-shadow: 0px 0px 6px -4px;
     border-radius: 4px;
 }
+
+.dropdown {
+    display: none;
+    /* Initially hidden */
+}
+
+.dropdown.open {
+    display: block;
+    /* Displayed when the 'open' class is added */
+}
