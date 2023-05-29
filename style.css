@@ -129,3 +129,36 @@ h4 {
     transform: skew(-30deg);
     transform-origin: top;
 }
+
+/* @media screen and (max-width:1279px) {
+    .home1 {
+        margin-top: 400px;
+    }
+} */
+@media only screen and (min-width:1024px) and (max-width:1279px) {
+    .home1 {
+        margin-top: 400px;
+
+    }
+}
+
+@media only screen and (min-width:1040px) and (max-width:1399px) {
+    .homeDasboard {
+        width: 65%;
+
+    }
+}
+
+@media only screen and (min-width:1020px) and (max-width:1399px) {
+    .homeDasboard2 {
+        width: 30%;
+
+    }
+}
+
+@media only screen and (max-width:1020px) {
+    .homeDasboard2 {
+        width: 60%;
+
+    }
+}

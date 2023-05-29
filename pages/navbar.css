@@ -69,12 +69,11 @@ a {
 
 @media only screen and (max-width: 1024px) {
     .nav-menu {
+        padding-bottom: 100vh;
         position: fixed;
         left: -100%;
         top: 0rem;
         flex-direction: column;
-        /* background-image: url('https://i.ibb.co/vckNW8C/BG-8.png');
-         */
         background: white;
         z-index: 50;
         width: 100%;
